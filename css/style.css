@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+}
+
+.conteiner {
+    width: 100%;
+    max-width: 1000px;
+    height: 470px;
+    margin: 10px auto;
+    border: 1px solid aliceblue;
+}
+
+.box-one {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid aliceblue;
+}
+
+.box-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box {
+    display: flex;
+}
+
+.box-four {
+    position: relative;
+}
+
+.square.one {
+    position: absolute;
+    left: 203px;
+    top: -1px;
+}
+
+.square.two {
+    position: absolute;
+    left: 233px;
+    top: 33px;
+}
+
+.square.three {
+    position: absolute;
+    left: 263px;
+    top: 63px;
+}
+
+.slick-slider {
+    padding-top: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.slick-slider {
+    min-width: 0;
+}
+
+.slider {
+    position: relative;
+    margin: 0 auto;
+}
+
+.slider_item img {
+    width: 100%;
+    max-width: 640px;
+    height: 400px;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-slide {
+    margin: 0 auto;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 0;
+    width: 30px;
+    height: 60px;
+    border: none;
+    z-index: 10;
+}
+
+.slick-arrow.slick-prev {
+    left: 0;
+    background: url("../img/sl-arrow_l.svg") 0 0 / 100% no-repeat;
+}
+
+.slick-arrow.slick-next {
+    right: 0;
+    background: url("../img/sl-arrow_r.svg") 0 0 / 100% no-repeat;
+}
+
+.slider .slick-dots {
+    margin-right: 45px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.slider .slick-dots li {
+    margin: 0 10px;
+}
+
+
+.slider .slick-dots button {
+    position: absolute;
+    font-size: 0;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    width: 10px;
+    height: 10px;
+}
+
+.fancy-box {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.imglist {
+    margin-left: 175px;
+}
+
+
+.imglist img {
+    padding: 5px 5px;
+    width: 240px;
+    height: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
