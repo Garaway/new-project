@@ -1,6 +1,6 @@
 $('.slider').slick({
     arrow: true,
     dots: true,
-    lazyLoad: 'ondemand',
+    LazyLoad: 'ondemand',
     slidesToShow: 1
 });

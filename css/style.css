@@ -7,7 +7,6 @@ body {
 .container {
     width: 100%;
     max-width: 1000px;
-    height: 470px;
     margin: 10px auto;
     border: 1px solid aliceblue;
 }
@@ -33,40 +32,38 @@ body {
     justify-content: space-between;
 }
 
-.left-box {
-    display: flex;
+.square.left {
+    margin-left: auto;
 }
 
 .box-four {
     position: relative;
+    margin-bottom: auto;
 }
 
 .square.one {
-    position: absolute;
+    position: relative;
     left: 203px;
-    top: -1px;
 }
 
 .square.two {
-    position: absolute;
-    left: 233px;
-    top: 33px;
+    margin-left: 233px;
+    margin-top: -63px;
 }
 
 .square.three {
-    position: absolute;
-    left: 263px;
-    top: 63px;
+    margin-left: 263px;
+    margin-top: -63px;
 }
 
-.slick-slider {
+.slick_slider {
     padding-top: 100px;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.slick-slider {
+.slick_slider {
     min-width: 0;
 }
 
@@ -150,6 +147,7 @@ body {
     max-width: 1100px;
     margin: 0 auto;
 }
+
 .imglist {
     margin-left: 175px;
 }
