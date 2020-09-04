@@ -56,30 +56,29 @@ body {
     margin-top: -63px;
 }
 
-.slick_slider {
+
+.slider {
     padding-top: 100px;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-}
-
-.slick_slider {
-    min-width: 0;
-}
-
-.slider {
+    loading:lazy;
     position: relative;
-    margin: 0 auto;
+}
+
+.slider_item data-lazy {
+    width: 100%;
 }
 
 .slider_item img {
-    width: 100%;
     max-width: 640px;
+    min-width: 640px;
     height: 400px;
 }
 
 .slick-track {
     display: flex;
+    justify-content: center;
 }
 
 .slick-list {
@@ -98,6 +97,7 @@ body {
     height: 60px;
     border: none;
     z-index: 10;
+    margin-right: 30px;
 }
 
 .slick-arrow.slick-prev {
@@ -143,13 +143,14 @@ body {
 .fancy-box {
     padding-top: 100px;
     padding-bottom: 50px;
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .imglist {
-    margin-left: 175px;
+    width: 100%;
+    max-width: 1100px;
+    margin-left: 30px;
 }
 
 
